@@ -1,0 +1,88 @@
+\begin{thebibliography}{11}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Alter et~al.(2021)Alter, Yu, Liu, Chandrashekar, Borducchi,
+  Tostanoski, McMahan, Jacob-Dolan, Martinez, Chang, et~al.]{janssen}
+Galit Alter, Jingyou Yu, Jinyan Liu, Abishek Chandrashekar, Erica~N Borducchi,
+  Lisa~H Tostanoski, Katherine McMahan, Catherine Jacob-Dolan, David~R
+  Martinez, Aiquan Chang, et~al.
+\newblock Immunogenicity of {Ad26. COV2. S} vaccine against {SARS-CoV-2}
+  variants in humans.
+\newblock \emph{Nature}, pages 1--5, 2021.
+
+\bibitem[Csardi and Nepusz(2006)]{igraph}
+Gabor Csardi and Tamas Nepusz.
+\newblock The igraph software package for complex network research.
+\newblock \emph{InterJournal}, Complex Systems:\penalty0 1695, 2006.
+\newblock URL \url{https://igraph.org}.
+
+\bibitem[Dash et~al.(2017)Dash, Fiore-Gartland, Hertz, Wang, Sharma, Souquette,
+  Crawford, Clemens, Nguyen, Kedzierska, et~al.]{tcrdist}
+Pradyot Dash, Andrew~J Fiore-Gartland, Tomer Hertz, George~C Wang, Shalini
+  Sharma, Aisha Souquette, Jeremy~Chase Crawford, E~Bridie Clemens, Thi~HO
+  Nguyen, Katherine Kedzierska, et~al.
+\newblock Quantifiable predictive features define epitope-specific t cell
+  receptor repertoires.
+\newblock \emph{Nature}, 547\penalty0 (7661):\penalty0 89--93, 2017.
+
+\bibitem[Kassambara(2020)]{ggpubr}
+Alboukadel Kassambara.
+\newblock \emph{ggpubr: 'ggplot2' Based Publication Ready Plots}, 2020.
+\newblock URL \url{https://CRAN.R-project.org/package=ggpubr}.
+\newblock R package version 0.4.0.
+
+\bibitem[Kassambara(2021)]{rstatix}
+Alboukadel Kassambara.
+\newblock \emph{rstatix: Pipe-Friendly Framework for Basic Statistical Tests},
+  2021.
+\newblock URL \url{https://CRAN.R-project.org/package=rstatix}.
+\newblock R package version 0.7.0.
+
+\bibitem[Mayer-Blackwell et~al.(2020)Mayer-Blackwell, Schattgen, Cohen-Lavi,
+  Crawford, Souquette, Gaevert, Hertz, Thomas, Bradley, and
+  Fiore-Gartland]{metaclonotypes}
+Koshlan Mayer-Blackwell, Stefan Schattgen, Liel Cohen-Lavi, Jeremy~Chase
+  Crawford, Aisha Souquette, Jessica~A Gaevert, Tomer Hertz, Paul~G Thomas,
+  Philip Bradley, and Andrew Fiore-Gartland.
+\newblock {TCR} meta-clonotypes for biomarker discovery with tcrdist3:
+  quantification of public, {HLA}-restricted {TCR} biomarkers of {SARS-CoV-2}
+  infection.
+\newblock \emph{bioRxiv}, 2020.
+
+\bibitem[Pedersen(2020)]{ggraph}
+Thomas~Lin Pedersen.
+\newblock \emph{ggraph: An Implementation of Grammar of Graphics for Graphs and
+  Networks}, 2020.
+\newblock URL \url{https://CRAN.R-project.org/package=ggraph}.
+\newblock R package version 2.0.2.
+
+\bibitem[{R Core Team}(2019)]{r}
+{R Core Team}.
+\newblock \emph{R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2019.
+\newblock URL \url{https://www.R-project.org/}.
+
+\bibitem[Wickham(2016)]{ggplot2}
+Hadley Wickham.
+\newblock \emph{ggplot2: Elegant Graphics for Data Analysis}.
+\newblock Springer-Verlag New York, 2016.
+\newblock ISBN 978-3-319-24277-4.
+\newblock URL \url{https://ggplot2.tidyverse.org}.
+
+\bibitem[Wickham(2020)]{tidyr}
+Hadley Wickham.
+\newblock \emph{tidyr: Tidy Messy Data}, 2020.
+\newblock URL \url{https://CRAN.R-project.org/package=tidyr}.
+\newblock R package version 1.1.2.
+
+\bibitem[Wickham et~al.(2020)Wickham, François, { Henry}, and Müller]{dplyr}
+Hadley Wickham, Romain François, Lionel { Henry}, and Kirill Müller.
+\newblock \emph{dplyr: A Grammar of Data Manipulation}, 2020.
+\newblock URL \url{https://CRAN.R-project.org/package=dplyr}.
+\newblock R package version 1.0.2.
+
+\end{thebibliography}

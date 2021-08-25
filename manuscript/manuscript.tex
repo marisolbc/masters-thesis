@@ -1,21 +1,84 @@
-\begin{document}
+\documentclass[10pt,a4paper,twoside,titlepage]{report}
 
+% Language and encoding
+% \usepackage[latin1,utf8]{inputenc}
+\usepackage[british]{babel}
+%%%
+
+% Font
+%\usepackage{helvet}
+%\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{fontspec}
+\setmainfont[Ligatures=TeX]{Arial}
+
+%\usepackage{fontspec}
+
+% Titles
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries}{}{0pt}{\Large}
+
+% Section titles
+\titleformat{\section}[runin]{\normalfont\bfseries}{\thesection}{0.5em}{}[.]
+\titlespacing*{\section}{0pt}{0.5em}{0.5em}
+
+
+% Margins and linespacing
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry} % Margins
+\renewcommand{\baselinestretch}{1} % Line spacing
+
+% Join contiguous citations in the same bracket
+% \usepackage{cite}
+\usepackage[round]{natbib}
+\bibliographystyle{plainnat}
+
+
+% Justify without hyphenation
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+% Do not indent paragraphs, add space between them
+%\setlength{\parindent}{0pt}
+\usepackage{parskip}
+
+% Greek letters in text
+\usepackage{textgreek}
+
+\usepackage{lipsum}
+
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\usepackage{textcomp}
+
+
+\newcommand{\TCRB}{TCR\textbeta{}}
+\newcommand{\covid}{SARS-CoV-2}
+
+
+
+\begin{document}
 	\input{00_cover}
 	\cleardoublepage
 	\input{01_abstract_en_es}
 	\cleardoublepage
-	\tableofcontents
-	\cleardoublepage
+	% \tableofcontents
+	% \cleardoublepage
 	\input{02_introduction}
 	\input{03_methods}
 	\input{04_results}
 	\input{05_discussion}
 	\input{06_conclusions}
-	\input{07_data_code}
-	
-	\bibliographystyle{unsrt}
-	\bibliography{references.bib}
-	
+%	\input{07_data_code}
+
+  %\bibliographystyle{apalike}
+  \setmainfont[Ligatures=TeX]{Arial Narrow}
+  \bibliography{references}
+
 %	\appendix
 %	\input{10_anexo}
 

@@ -1,0 +1,25 @@
+\chapter{Methods}
+
+
+\section*{TCR data}
+
+This study is based on public data from two previous works \citep{janssen, metaclonotypes}. The dataset used for TCR repertoire analysis included samples from 32 individuals: 8 convalescent from COVID-19, 19 who received the Ad26.COV2.S vaccine developed by Janssen Pharmaceutica during a clinical trial, and 5 subjects who received a placebo. Peripheral blood samples were collected 63 days post diagnosis or vaccination and immunosequencing of the CDR3 regions of human \TCRB{} chains was performed with the immunoSEQ Assay (Adaptive Biotechnologies). Data was accessed on July 2021 via Adaptive Biotechnologies immuneACCESS database (immuneACCESS DOI: \url{https://doi.org/10.21417/GA2021N}).
+
+\covid-specific \TCRB{} sequences were obtained from \cite{metaclonotypes}. This sequences are proven to bind \covid{} epitopes by Multiplex Identification of Receptor Antigen (MIRA) \textit{in vitro} assays and are also enriched in bulk \TCRB{} repertoires of convalescent individuals compared to healthy controls. For the present study, only \TCRB{} sequences with a strong HLA association were taken into consideration.
+%%% TO-DO: limit Holm 005 ???
+
+\section*{Antigen specificity annotation}
+%%% TO-DO
+
+\section*{CDR3 pairwise distances}
+
+Pairwise distances between all CDR3 sequences in a given sample were computed with tcrdist3 \citep{tcrdist, metaclonotypes} via its lastest Docker image (0.1.9). tcrdist3 is a Python toolkit that implements a custom distance metric based on BLOSUM62 substitution matrix to account for similar aminoacid substitutions, and applies different weights depending on the importance of every CDR3 position in antigen binding. Total runtime was \texttildelow 98 hours with parallel processing (40 CPUs, 256 GB of RAM).
+
+\section*{Network analysis}
+
+In this analysis each unique CDR3 aminoacid sequence were considered as a node. An edge was built between two nodes if their pairwise distance was $\leq$ 12. The reason behind this threshold is that 12 is the greatest possible distance between two CDR3 with one mismatch according to tcrdist3 algorithm. Networks were built and analyzed with R igraph package v1.2.6 \citep{igraph}.
+
+\section*{Data analysis and visualization}
+
+All plots and analyses were carried in R 3.6.1 \citep{r}. For data analysis, the packages dplyr v1.0.2 \citep{dplyr}, tidyr v1.1.2 \citep{tidyr}, rstatix v0.7.0 \citep{rstatix} and parallel v3.6.1 \citep{r} were used. Networks were plotted with the ggraph v2.0.2 package \citep{ggraph}. All other plots were generated with ggplot2 v3.3.2 \citep{ggplot2} and ggpubr v0.4.0 \citep{ggpubr}.
+%%% TO-DO: github repo here?
