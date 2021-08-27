@@ -1,4 +1,4 @@
-\begin{thebibliography}{11}
+\begin{thebibliography}{13}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -29,6 +29,15 @@ Pradyot Dash, Andrew~J Fiore-Gartland, Tomer Hertz, George~C Wang, Shalini
   receptor repertoires.
 \newblock \emph{Nature}, 547\penalty0 (7661):\penalty0 89--93, 2017.
 
+\bibitem[Gittelman et~al.(2021)Gittelman, Lavezzo, Snyder, Zahid, Elyanow,
+  Dalai, Kirsch, Baldo, Manuto, Franchin, et~al.]{gittelman2021diagnosis}
+Rachel~M Gittelman, Enrico Lavezzo, Thomas~M Snyder, H~Jabran Zahid, Rebecca
+  Elyanow, Sudeb Dalai, Ilan Kirsch, Lance Baldo, Laura Manuto, Elisa Franchin,
+  et~al.
+\newblock Diagnosis and tracking of sars-cov-2 infection by t-cell receptor
+  sequencing.
+\newblock \emph{medRxiv}, pages 2020--11, 2021.
+
 \bibitem[Kassambara(2020)]{ggpubr}
 Alboukadel Kassambara.
 \newblock \emph{ggpubr: 'ggplot2' Based Publication Ready Plots}, 2020.
@@ -52,6 +61,16 @@ Koshlan Mayer-Blackwell, Stefan Schattgen, Liel Cohen-Lavi, Jeremy~Chase
   quantification of public, {HLA}-restricted {TCR} biomarkers of {SARS-CoV-2}
   infection.
 \newblock \emph{bioRxiv}, 2020.
+
+\bibitem[Nolan et~al.(2020)Nolan, Vignali, Klinger, Dines, Kaplan, Svejnoha,
+  Craft, Boland, Pesesky, Gittelman, et~al.]{immunecode}
+Sean Nolan, Marissa Vignali, Mark Klinger, Jennifer~N Dines, Ian~M Kaplan,
+  Emily Svejnoha, Tracy Craft, Katie Boland, Mitch Pesesky, Rachel~M Gittelman,
+  et~al.
+\newblock A large-scale database of {T}-cell receptor beta ({TCR}$\beta$)
+  sequences and binding associations from natural and synthetic exposure to
+  {SARS-CoV-2}.
+\newblock \emph{Research square}, 2020.
 
 \bibitem[Pedersen(2020)]{ggraph}
 Thomas~Lin Pedersen.
