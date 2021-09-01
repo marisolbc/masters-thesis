@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{19}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -38,6 +38,19 @@ Rachel~M Gittelman, Enrico Lavezzo, Thomas~M Snyder, H~Jabran Zahid, Rebecca
   sequencing.
 \newblock \emph{medRxiv}, pages 2020--11, 2021.
 
+\bibitem[Harris and Sauer(2021)]{tcellsdiag}
+Tim Harris and Karsten Sauer.
+\newblock Are {T} cell repertoires useful as diagnostics for {SARS-CoV-2}
+  infection?
+\newblock \emph{Expert Review of Molecular Diagnostics}, 21\penalty0
+  (2):\penalty0 137--139, 2021.
+
+\bibitem[Hu et~al.(2021)Hu, Guo, Zhou, and Shi]{hu}
+Ben Hu, Hua Guo, Peng Zhou, and Zheng-Li Shi.
+\newblock Characteristics of sars-cov-2 and covid-19.
+\newblock \emph{Nature Reviews Microbiology}, 19\penalty0 (3):\penalty0
+  141--154, 2021.
+
 \bibitem[Kassambara(2020)]{ggpubr}
 Alboukadel Kassambara.
 \newblock \emph{ggpubr: 'ggplot2' Based Publication Ready Plots}, 2020.
@@ -50,6 +63,14 @@ Alboukadel Kassambara.
   2021.
 \newblock URL \url{https://CRAN.R-project.org/package=rstatix}.
 \newblock R package version 0.7.0.
+
+\bibitem[Liu et~al.(2020)Liu, Li, Liu, Liang, Wang, Wang, Li, Tong, Yi, Zhao,
+  et~al.]{lymphopeniaseverity}
+Jing Liu, Sumeng Li, Jia Liu, Boyun Liang, Xiaobei Wang, Hua Wang, Wei Li,
+  Qiaoxia Tong, Jianhua Yi, Lei Zhao, et~al.
+\newblock Longitudinal characteristics of lymphocyte responses and cytokine
+  profiles in the peripheral blood of {SARS-CoV-2} infected patients.
+\newblock \emph{EBioMedicine}, 55:\penalty0 102763, 2020.
 
 \bibitem[Mayer-Blackwell et~al.(2020)Mayer-Blackwell, Schattgen, Cohen-Lavi,
   Crawford, Souquette, Gaevert, Hertz, Thomas, Bradley, and
@@ -84,6 +105,23 @@ Thomas~Lin Pedersen.
 \newblock \emph{R: A Language and Environment for Statistical Computing}.
 \newblock R Foundation for Statistical Computing, Vienna, Austria, 2019.
 \newblock URL \url{https://www.R-project.org/}.
+
+\bibitem[Sauer and Harris(2020)]{vaccinetcell}
+Karsten Sauer and Tim Harris.
+\newblock An effective {COVID-19} vaccine needs to engage {T} cells.
+\newblock \emph{Frontiers in Immunology}, 11, 2020.
+
+\bibitem[Tomasello et~al.(2020)Tomasello, Armenia, and Molla]{proteinimager}
+Gianluca Tomasello, Ilaria Armenia, and Gianluca Molla.
+\newblock The {Protein Imager}: a full-featured online molecular viewer
+  interface with server-side {HQ}-rendering capabilities.
+\newblock \emph{Bioinformatics}, 36\penalty0 (9):\penalty0 2909--2911, 2020.
+
+\bibitem[WHO(2021)]{who}
+WHO.
+\newblock {WHO} coronavirus ({COVID-19)} dashboard.
+\newblock \url{https://covid19.who.int/}, 2021.
+\newblock Accessed: 2021-08-31.
 
 \bibitem[Wickham(2016)]{ggplot2}
 Hadley Wickham.
