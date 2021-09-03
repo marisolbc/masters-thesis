@@ -1,4 +1,4 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{38}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -7,127 +7,160 @@
 
 \bibitem[Alter et~al.(2021)Alter, Yu, Liu, Chandrashekar, Borducchi,
   Tostanoski, McMahan, Jacob-Dolan, Martinez, Chang, et~al.]{janssen}
-Galit Alter, Jingyou Yu, Jinyan Liu, Abishek Chandrashekar, Erica~N Borducchi,
-  Lisa~H Tostanoski, Katherine McMahan, Catherine Jacob-Dolan, David~R
-  Martinez, Aiquan Chang, et~al.
-\newblock Immunogenicity of {Ad26. COV2. S} vaccine against {SARS-CoV-2}
-  variants in humans.
+Alter, Galit, Yu, Jingyou, Liu, Jinyan, Chandrashekar, Abishek, Borducchi,
+  Erica~N, Tostanoski, Lisa~H, McMahan, Katherine, Jacob-Dolan, Catherine,
+  Martinez, David~R, Chang, Aiquan, et~al.
+\newblock Immunogenicity of {Ad26.COV2.S} vaccine against {SARS-CoV-2} variants
+  in humans.
 \newblock \emph{Nature}, pages 1--5, 2021.
 
+\bibitem[Amrun et~al.(2020)Amrun, Lee, Lee, Fong, Young, Chee, Yeo,
+  Torres-Ruesta, Carissimo, Poh, et~al.]{abepitopes}
+Amrun, Siti~Naqiah, Lee, Cheryl Yi-Pin, Lee, Bernett, Fong, Siew-Wai, Young,
+  Barnaby~Edward, Chee, Rhonda Sin-Ling, Yeo, Nicholas Kim-Wah, Torres-Ruesta,
+  Anthony, Carissimo, Guillaume, Poh, Chek~Meng, et~al.
+\newblock Linear {B-cell} epitopes in the spike and nucleocapsid proteins as
+  markers of {SARS-CoV-2} exposure and disease severity.
+\newblock \emph{EBioMedicine}, 58:\penalty0 102911, 2020.
+
 \bibitem[Csardi and Nepusz(2006)]{igraph}
-Gabor Csardi and Tamas Nepusz.
+Csardi, Gabor and Nepusz, Tamas.
 \newblock The igraph software package for complex network research.
 \newblock \emph{InterJournal}, Complex Systems:\penalty0 1695, 2006.
 \newblock URL \url{https://igraph.org}.
 
 \bibitem[Dash et~al.(2017)Dash, Fiore-Gartland, Hertz, Wang, Sharma, Souquette,
   Crawford, Clemens, Nguyen, Kedzierska, et~al.]{tcrdist}
-Pradyot Dash, Andrew~J Fiore-Gartland, Tomer Hertz, George~C Wang, Shalini
-  Sharma, Aisha Souquette, Jeremy~Chase Crawford, E~Bridie Clemens, Thi~HO
-  Nguyen, Katherine Kedzierska, et~al.
-\newblock Quantifiable predictive features define epitope-specific t cell
+Dash, Pradyot, Fiore-Gartland, Andrew~J, Hertz, Tomer, Wang, George~C, Sharma,
+  Shalini, Souquette, Aisha, Crawford, Jeremy~Chase, Clemens, E~Bridie, Nguyen,
+  Thi~HO, Kedzierska, Katherine, et~al.
+\newblock Quantifiable predictive features define epitope-specific {T} cell
   receptor repertoires.
 \newblock \emph{Nature}, 547\penalty0 (7661):\penalty0 89--93, 2017.
 
 \bibitem[Ewer et~al.(2021)Ewer, Barrett, Belij-Rammerstorfer, Sharpe, Makinson,
   Morter, Flaxman, Wright, Bellamy, Bittaye, et~al.]{astrazenecaab}
-Katie~J Ewer, Jordan~R Barrett, Sandra Belij-Rammerstorfer, Hannah Sharpe,
-  Rebecca Makinson, Richard Morter, Amy Flaxman, Daniel Wright, Duncan Bellamy,
-  Mustapha Bittaye, et~al.
-\newblock T cell and antibody responses induced by a single dose of chadox1
-  ncov-19 (azd1222) vaccine in a phase 1/2 clinical trial.
+Ewer, Katie~J, Barrett, Jordan~R, Belij-Rammerstorfer, Sandra, Sharpe, Hannah,
+  Makinson, Rebecca, Morter, Richard, Flaxman, Amy, Wright, Daniel, Bellamy,
+  Duncan, Bittaye, Mustapha, et~al.
+\newblock T cell and antibody responses induced by a single dose of {ChAdOx1
+  nCoV-19 (AZD1222)} vaccine in a phase 1/2 clinical trial.
 \newblock \emph{Nature medicine}, 27\penalty0 (2):\penalty0 270--278, 2021.
 
 \bibitem[Garcia and Adams(2005)]{cdr12mhc}
-K~Christopher Garcia and Erin~J Adams.
-\newblock How the t cell receptor sees antigen—a structural view.
+Garcia, K~Christopher and Adams, Erin~J.
+\newblock How the {T} cell receptor sees antigen—a structural view.
 \newblock \emph{Cell}, 122\penalty0 (3):\penalty0 333--336, 2005.
 
 \bibitem[Gittelman et~al.(2021)Gittelman, Lavezzo, Snyder, Zahid, Elyanow,
-  Dalai, Kirsch, Baldo, Manuto, Franchin, et~al.]{gittelman2021diagnosis}
-Rachel~M Gittelman, Enrico Lavezzo, Thomas~M Snyder, H~Jabran Zahid, Rebecca
-  Elyanow, Sudeb Dalai, Ilan Kirsch, Lance Baldo, Laura Manuto, Elisa Franchin,
-  et~al.
-\newblock Diagnosis and tracking of sars-cov-2 infection by t-cell receptor
+  Dalai, Kirsch, Baldo, Manuto, Franchin, et~al.]{snyderdiagnosis}
+Gittelman, Rachel~M, Lavezzo, Enrico, Snyder, Thomas~M, Zahid, H~Jabran,
+  Elyanow, Rebecca, Dalai, Sudeb, Kirsch, Ilan, Baldo, Lance, Manuto, Laura,
+  Franchin, Elisa, et~al.
+\newblock Diagnosis and tracking of {SARS-CoV-2 infection by T-Cell} receptor
   sequencing.
 \newblock \emph{medRxiv}, pages 2020--11, 2021.
 
 \bibitem[Greiff et~al.(2020)Greiff, Yaari, and Cowell]{tcrml}
-Victor Greiff, Gur Yaari, and Lindsay Cowell.
+Greiff, Victor, Yaari, Gur, and Cowell, Lindsay.
 \newblock Mining adaptive immune receptor repertoires for biological and
   clinical information using machine learning.
 \newblock \emph{Current Opinion in Systems Biology}, 2020.
 
+\bibitem[Grifoni et~al.(2020)Grifoni, Weiskopf, Ramirez, Mateus, Dan,
+  Moderbacher, Rawlings, Sutherland, Premkumar, Jadi, et~al.]{targetstcells}
+Grifoni, Alba, Weiskopf, Daniela, Ramirez, Sydney~I, Mateus, Jose, Dan,
+  Jennifer~M, Moderbacher, Carolyn~Rydyznski, Rawlings, Stephen~A, Sutherland,
+  Aaron, Premkumar, Lakshmanane, Jadi, Ramesh~S, et~al.
+\newblock {Targets of T cell responses to SARS-CoV-2 coronavirus in humans with
+  COVID-19 disease and unexposed individuals}.
+\newblock \emph{Cell}, 181\penalty0 (7):\penalty0 1489--1501, 2020.
+
 \bibitem[Harris and Sauer(2021)]{tcellsdiag}
-Tim Harris and Karsten Sauer.
+Harris, Tim and Sauer, Karsten.
 \newblock Are {T} cell repertoires useful as diagnostics for {SARS-CoV-2}
   infection?
 \newblock \emph{Expert Review of Molecular Diagnostics}, 21\penalty0
   (2):\penalty0 137--139, 2021.
 
 \bibitem[Heather et~al.(2018)Heather, Ismail, Oakes, and Chain]{pitfallsoport}
-James~M Heather, Mazlina Ismail, Theres Oakes, and Benny Chain.
-\newblock High-throughput sequencing of the t-cell receptor repertoire:
-  pitfalls and opportunities.
+Heather, James~M, Ismail, Mazlina, Oakes, Theres, and Chain, Benny.
+\newblock {High-throughput sequencing of the T-cell receptor repertoire:
+  pitfalls and opportunities}.
 \newblock \emph{Briefings in bioinformatics}, 19\penalty0 (4):\penalty0
   554--565, 2018.
 
 \bibitem[Hu et~al.(2021)Hu, Guo, Zhou, and Shi]{hu}
-Ben Hu, Hua Guo, Peng Zhou, and Zheng-Li Shi.
-\newblock Characteristics of sars-cov-2 and covid-19.
+Hu, Ben, Guo, Hua, Zhou, Peng, and Shi, Zheng-Li.
+\newblock {Characteristics of SARS-CoV-2 and COVID-19}.
 \newblock \emph{Nature Reviews Microbiology}, 19\penalty0 (3):\penalty0
   141--154, 2021.
 
+\bibitem[Huang et~al.(2020)Huang, Wang, Rubelt, Scriba, and Davis]{gliph2}
+Huang, Huang, Wang, Chunlin, Rubelt, Florian, Scriba, Thomas~J, and Davis,
+  Mark~M.
+\newblock {Analyzing the Mycobacterium tuberculosis immune response by T-cell
+  receptor clustering with GLIPH2 and genome-wide antigen screening}.
+\newblock \emph{Nature biotechnology}, 38\penalty0 (10):\penalty0 1194--1202,
+  2020.
+
 \bibitem[Kassambara(2020)]{ggpubr}
-Alboukadel Kassambara.
+Kassambara, Alboukadel.
 \newblock \emph{ggpubr: 'ggplot2' Based Publication Ready Plots}, 2020.
 \newblock URL \url{https://CRAN.R-project.org/package=ggpubr}.
 \newblock R package version 0.4.0.
 
 \bibitem[Kassambara(2021)]{rstatix}
-Alboukadel Kassambara.
+Kassambara, Alboukadel.
 \newblock \emph{rstatix: Pipe-Friendly Framework for Basic Statistical Tests},
   2021.
 \newblock URL \url{https://CRAN.R-project.org/package=rstatix}.
 \newblock R package version 0.7.0.
 
+\bibitem[Kassambara and Mundt(2017)]{factoextra}
+Kassambara, Alboukadel and Mundt, Fabian.
+\newblock \emph{factoextra: Extract and Visualize the Results of Multivariate
+  Data Analyses}, 2017.
+\newblock URL \url{https://CRAN.R-project.org/package=factoextra}.
+\newblock R package version 1.0.5.
+
 \bibitem[Klinger et~al.(2015)Klinger, Pepin, Wilkins, Asbury, Wittkop, Zheng,
   Moorhead, and Faham]{miratech}
-Mark Klinger, Francois Pepin, Jen Wilkins, Thomas Asbury, Tobias Wittkop,
-  Jianbiao Zheng, Martin Moorhead, and Malek Faham.
-\newblock Multiplex identification of antigen-specific t cell receptors using a
-  combination of immune assays and immune receptor sequencing.
+Klinger, Mark, Pepin, Francois, Wilkins, Jen, Asbury, Thomas, Wittkop, Tobias,
+  Zheng, Jianbiao, Moorhead, Martin, and Faham, Malek.
+\newblock {Multiplex identification of antigen-specific T cell receptors using
+  a combination of immune assays and immune receptor sequencing}.
 \newblock \emph{PLoS One}, 10\penalty0 (10):\penalty0 e0141561, 2015.
 
 \bibitem[Liu et~al.(2020)Liu, Li, Liu, Liang, Wang, Wang, Li, Tong, Yi, Zhao,
   et~al.]{lymphopeniaseverity}
-Jing Liu, Sumeng Li, Jia Liu, Boyun Liang, Xiaobei Wang, Hua Wang, Wei Li,
-  Qiaoxia Tong, Jianhua Yi, Lei Zhao, et~al.
+Liu, Jing, Li, Sumeng, Liu, Jia, Liang, Boyun, Wang, Xiaobei, Wang, Hua, Li,
+  Wei, Tong, Qiaoxia, Yi, Jianhua, Zhao, Lei, et~al.
 \newblock Longitudinal characteristics of lymphocyte responses and cytokine
   profiles in the peripheral blood of {SARS-CoV-2} infected patients.
 \newblock \emph{EBioMedicine}, 55:\penalty0 102763, 2020.
 
 \bibitem[Lubin et~al.(2020)Lubin, Zardecki, Dolan, Lu, Shen, Dutta, Westbrook,
   Hudson, Goodsell, Williams, et~al.]{covid3d}
-Joseph~H Lubin, Christine Zardecki, Elliott~M Dolan, Changpeng Lu, Zhuofan
-  Shen, Shuchismita Dutta, John~D Westbrook, Brian~P Hudson, David~S Goodsell,
-  Jonathan~K Williams, et~al.
+Lubin, Joseph~H, Zardecki, Christine, Dolan, Elliott~M, Lu, Changpeng, Shen,
+  Zhuofan, Dutta, Shuchismita, Westbrook, John~D, Hudson, Brian~P, Goodsell,
+  David~S, Williams, Jonathan~K, et~al.
 \newblock Evolution of the {SARS-CoV-2} proteome in three dimensions ({3D})
   during the first six months of the {COVID-19} pandemic.
 \newblock \emph{bioRxiv}, 2020.
 
 \bibitem[Lythe et~al.(2016)Lythe, Callard, Hoare, and
   Molina-Par{\'\i}s]{tcrdiv}
-Grant Lythe, Robin~E Callard, Rollo~L Hoare, and Carmen Molina-Par{\'\i}s.
-\newblock How many tcr clonotypes does a body maintain?
+Lythe, Grant, Callard, Robin~E, Hoare, Rollo~L, and Molina-Par{\'\i}s, Carmen.
+\newblock {How many TCR clonotypes does a body maintain?}
 \newblock \emph{Journal of theoretical biology}, 389:\penalty0 214--224, 2016.
 
 \bibitem[Mayer-Blackwell et~al.(2020)Mayer-Blackwell, Schattgen, Cohen-Lavi,
   Crawford, Souquette, Gaevert, Hertz, Thomas, Bradley, and
   Fiore-Gartland]{metaclonotypes}
-Koshlan Mayer-Blackwell, Stefan Schattgen, Liel Cohen-Lavi, Jeremy~Chase
-  Crawford, Aisha Souquette, Jessica~A Gaevert, Tomer Hertz, Paul~G Thomas,
-  Philip Bradley, and Andrew Fiore-Gartland.
+Mayer-Blackwell, Koshlan, Schattgen, Stefan, Cohen-Lavi, Liel, Crawford,
+  Jeremy~Chase, Souquette, Aisha, Gaevert, Jessica~A, Hertz, Tomer, Thomas,
+  Paul~G, Bradley, Philip, and Fiore-Gartland, Andrew.
 \newblock {TCR} meta-clonotypes for biomarker discovery with tcrdist3:
   quantification of public, {HLA}-restricted {TCR} biomarkers of {SARS-CoV-2}
   infection.
@@ -135,35 +168,43 @@ Koshlan Mayer-Blackwell, Stefan Schattgen, Liel Cohen-Lavi, Jeremy~Chase
 
 \bibitem[Minervina et~al.(2021)Minervina, Pogorelyy, Kirk, Allen, Allison, Lin,
   Brice, Zhu, Vegesana, Wu, et~al.]{pfizertcr}
-Anastasia~A Minervina, Mikhail~V Pogorelyy, Allison~M Kirk, Emma~Kaitlynn
-  Allen, Kim~J Allison, Chung-Yang Lin, David~C Brice, Xun Zhu, Kasi Vegesana,
-  Gang Wu, et~al.
-\newblock Convergent epitope-specific t cell responses after sars-cov-2
-  infection and vaccination.
+Minervina, Anastasia~A, Pogorelyy, Mikhail~V, Kirk, Allison~M, Allen,
+  Emma~Kaitlynn, Allison, Kim~J, Lin, Chung-Yang, Brice, David~C, Zhu, Xun,
+  Vegesana, Kasi, Wu, Gang, et~al.
+\newblock {Convergent epitope-specific T cell responses after SARS-CoV-2
+  infection and vaccination}.
 \newblock \emph{medRxiv}, 2021.
 
 \bibitem[Murphy and Weaver(2016)]{janeway}
-K.M. Murphy and C.~Weaver.
+Murphy, K.M. and Weaver, C.
 \newblock \emph{{Janeway's Immunobiology}}.
 \newblock Garland Science, 2016.
 \newblock ISBN 9780815345503.
 
 \bibitem[Nolan et~al.(2020)Nolan, Vignali, Klinger, Dines, Kaplan, Svejnoha,
   Craft, Boland, Pesesky, Gittelman, et~al.]{immunecode}
-Sean Nolan, Marissa Vignali, Mark Klinger, Jennifer~N Dines, Ian~M Kaplan,
-  Emily Svejnoha, Tracy Craft, Katie Boland, Mitch Pesesky, Rachel~M Gittelman,
-  et~al.
+Nolan, Sean, Vignali, Marissa, Klinger, Mark, Dines, Jennifer~N, Kaplan, Ian~M,
+  Svejnoha, Emily, Craft, Tracy, Boland, Katie, Pesesky, Mitch, Gittelman,
+  Rachel~M, et~al.
 \newblock A large-scale database of {T}-cell receptor beta ({TCR}$\beta$)
   sequences and binding associations from natural and synthetic exposure to
   {SARS-CoV-2}.
-\newblock \emph{Research square}, 2020.
+\newblock \emph{Research Square}, 2020.
 
 \bibitem[Pedersen(2020)]{ggraph}
-Thomas~Lin Pedersen.
+Pedersen, Thomas~Lin.
 \newblock \emph{ggraph: An Implementation of Grammar of Graphics for Graphs and
   Networks}, 2020.
 \newblock URL \url{https://CRAN.R-project.org/package=ggraph}.
 \newblock R package version 2.0.2.
+
+\bibitem[Pogorelyy et~al.(2019)Pogorelyy, Minervina, Shugay, Chudakov, Lebedev,
+  Mora, and Walczak]{alice}
+Pogorelyy, Mikhail~V, Minervina, Anastasia~A, Shugay, Mikhail, Chudakov,
+  Dmitriy~M, Lebedev, Yuri~B, Mora, Thierry, and Walczak, Aleksandra~M.
+\newblock {Detecting T cell receptors involved in immune responses from single
+  repertoire snapshots}.
+\newblock \emph{PLoS Biology}, 17\penalty0 (6):\penalty0 e3000314, 2019.
 
 \bibitem[{R Core Team}(2019)]{r}
 {R Core Team}.
@@ -173,37 +214,46 @@ Thomas~Lin Pedersen.
 
 \bibitem[Sahin et~al.(2020)Sahin, Muik, Derhovanessian, Vogler, Kranz, Vormehr,
   Baum, Pascal, Quandt, Maurus, et~al.]{pfizerab}
-Ugur Sahin, Alexander Muik, Evelyna Derhovanessian, Isabel Vogler, Lena~M
-  Kranz, Mathias Vormehr, Alina Baum, Kristen Pascal, Jasmin Quandt, Daniel
-  Maurus, et~al.
-\newblock Covid-19 vaccine bnt162b1 elicits human antibody and th 1 t cell
-  responses.
+Sahin, Ugur, Muik, Alexander, Derhovanessian, Evelyna, Vogler, Isabel, Kranz,
+  Lena~M, Vormehr, Mathias, Baum, Alina, Pascal, Kristen, Quandt, Jasmin,
+  Maurus, Daniel, et~al.
+\newblock {COVID-19 vaccine BNT162b1 elicits human antibody and TH 1 T cell
+  responses}.
 \newblock \emph{Nature}, 586\penalty0 (7830):\penalty0 594--599, 2020.
 
 \bibitem[Sauer and Harris(2020)]{vaccinetcell}
-Karsten Sauer and Tim Harris.
+Sauer, Karsten and Harris, Tim.
 \newblock An effective {COVID-19} vaccine needs to engage {T} cells.
 \newblock \emph{Frontiers in Immunology}, 11, 2020.
 
+\bibitem[Snyder et~al.(2020)Snyder, Gittelman, Klinger, May, Osborne,
+  Taniguchi, Zahid, Kaplan, Dines, Noakes, et~al.]{snyder}
+Snyder, Thomas~M, Gittelman, Rachel~M, Klinger, Mark, May, Damon~H, Osborne,
+  Edward~J, Taniguchi, Ruth, Zahid, H~Jabran, Kaplan, Ian~M, Dines, Jennifer~N,
+  Noakes, Matthew~N, et~al.
+\newblock {Magnitude and dynamics of the T-cell response to SARS-CoV-2
+  infection at both individual and population levels}.
+\newblock \emph{MedRxiv}, 2020.
+
 \bibitem[Stephenson et~al.(2021)Stephenson, Le~Gars, Sadoff, De~Groot,
   Heerwegh, Truyers, Atyeo, Loos, Chandrashekar, McMahan, et~al.]{janssenab}
-Kathryn~E Stephenson, Mathieu Le~Gars, Jerald Sadoff, Anne~Marit De~Groot, Dirk
-  Heerwegh, Carla Truyers, Caroline Atyeo, Carolin Loos, Abishek Chandrashekar,
-  Katherine McMahan, et~al.
+Stephenson, Kathryn~E, Le~Gars, Mathieu, Sadoff, Jerald, De~Groot, Anne~Marit,
+  Heerwegh, Dirk, Truyers, Carla, Atyeo, Caroline, Loos, Carolin,
+  Chandrashekar, Abishek, McMahan, Katherine, et~al.
 \newblock Immunogenicity of the ad26. cov2. s vaccine for covid-19.
 \newblock \emph{Jama}, 325\penalty0 (15):\penalty0 1535--1544, 2021.
 
 \bibitem[Swanson et~al.(2021)Swanson, Padilla, Hoyland, McGlinchey, Fields,
   Bibi, Faust, McDermott, Lambe, Pollard, et~al.]{astrazenecatcr}
-Phillip~A Swanson, Marcelino Padilla, Wesley Hoyland, Kelly McGlinchey, Paul~A
-  Fields, Sagida Bibi, Saul~N Faust, Adrian~B McDermott, Teresa Lambe, Andrew~J
-  Pollard, et~al.
-\newblock T-cell mediated immunity after azd1222 vaccination: A polyfunctional
-  spike-specific th1 response with a diverse tcr repertoire.
+Swanson, Phillip~A, Padilla, Marcelino, Hoyland, Wesley, McGlinchey, Kelly,
+  Fields, Paul~A, Bibi, Sagida, Faust, Saul~N, McDermott, Adrian~B, Lambe,
+  Teresa, Pollard, Andrew~J, et~al.
+\newblock {T-cell mediated immunity after AZD1222 vaccination: A polyfunctional
+  spike-specific Th1 response with a diverse TCR repertoire}.
 \newblock \emph{medRxiv}, 2021.
 
 \bibitem[Tomasello et~al.(2020)Tomasello, Armenia, and Molla]{proteinimager}
-Gianluca Tomasello, Ilaria Armenia, and Gianluca Molla.
+Tomasello, Gianluca, Armenia, Ilaria, and Molla, Gianluca.
 \newblock The {Protein Imager}: a full-featured online molecular viewer
   interface with server-side {HQ}-rendering capabilities.
 \newblock \emph{Bioinformatics}, 36\penalty0 (9):\penalty0 2909--2911, 2020.
@@ -215,22 +265,28 @@ WHO.
 \newblock Accessed: 2021-08-31.
 
 \bibitem[Wickham(2016)]{ggplot2}
-Hadley Wickham.
+Wickham, Hadley.
 \newblock \emph{ggplot2: Elegant Graphics for Data Analysis}.
 \newblock Springer-Verlag New York, 2016.
 \newblock ISBN 978-3-319-24277-4.
 \newblock URL \url{https://ggplot2.tidyverse.org}.
 
 \bibitem[Wickham(2020)]{tidyr}
-Hadley Wickham.
+Wickham, Hadley.
 \newblock \emph{tidyr: Tidy Messy Data}, 2020.
 \newblock URL \url{https://CRAN.R-project.org/package=tidyr}.
 \newblock R package version 1.1.2.
 
 \bibitem[Wickham et~al.(2020)Wickham, François, { Henry}, and Müller]{dplyr}
-Hadley Wickham, Romain François, Lionel { Henry}, and Kirill Müller.
+Wickham, Hadley, François, Romain, { Henry}, Lionel, and Müller, Kirill.
 \newblock \emph{dplyr: A Grammar of Data Manipulation}, 2020.
 \newblock URL \url{https://CRAN.R-project.org/package=dplyr}.
 \newblock R package version 1.0.2.
+
+\bibitem[Wilkins(2020)]{gggenes}
+Wilkins, David.
+\newblock \emph{gggenes: Draw Gene Arrow Maps in 'ggplot2'}, 2020.
+\newblock URL \url{https://CRAN.R-project.org/package=gggenes}.
+\newblock R package version 0.4.1.
 
 \end{thebibliography}

@@ -27,12 +27,12 @@
 
 % Margins and linespacing
 \usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry} % Margins
-\renewcommand{\baselinestretch}{1} % Line spacing
+\renewcommand{\baselinestretch}{1.5} % Line spacing
 
 % Join contiguous citations in the same bracket
 % \usepackage{cite}
 \usepackage[round]{natbib}
-\bibliographystyle{plainnat}
+\bibliographystyle{myplainnat}
 
 
 % Justify without hyphenation
@@ -53,11 +53,14 @@
 \usepackage{graphicx,setspace}
 \usepackage{caption}
 \setlength\abovecaptionskip{4pt}
-\captionsetup{font={stretch=1,footnotesize},labelfont=bf}
+\captionsetup{font={stretch=1,normalsize},labelfont=bf}
 \usepackage{afterpage}
 \usepackage{capt-of}
 
+% Add bibliography to toc
+\usepackage[nottoc,notlot,notlof]{tocbibind}
 
+% Chapters dont start in new page
 \usepackage{etoolbox}
 \makeatletter
 \patchcmd{\chapter}{\if@openright\cleardoublepage\else\clearpage\fi}{\par}{}{}
@@ -79,24 +82,23 @@
 \newcommand{\TCRB}{TCR\textbeta{}}
 \newcommand{\covid}{SARS-CoV-2}
 
-
+\def\bibfont{\setmainfont[Ligatures=TeX]{Arial Narrow}}
 
 \begin{document}
-	%\input{00_cover}
-	%\cleardoublepage
-	%\input{01_abstract_en_es}
-	%\cleardoublepage
-	% \tableofcontents
-	% \cleardoublepage
+	\input{00_cover}
+  \tableofcontents
+  \thispagestyle{empty}
+  \newpage
+  % \setcounter{page}{1}
+	\input{01_abstract_en_es}
 	\input{02_introduction}
 	\input{03_methods}
 	\input{04_results}
-	%\input{05_discussion}
-	%\input{06_conclusions}
+	\input{05_discussion}
+	\input{06_conclusions}
 %	\input{07_data_code}
 
   %\bibliographystyle{apalike}
-  \setmainfont[Ligatures=TeX]{Arial Narrow}
   \bibliography{references}
 
 %	\appendix
