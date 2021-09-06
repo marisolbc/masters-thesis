@@ -41,6 +41,8 @@ While \covid-specific CD4\textsuperscript{+} have been used to annotate TCR repe
 
 These TCRs were further screened for enrichment compared to a background of healthy individuals repertoires in order to remove TCRs that may be highly public or cross-reactive to common antigens. 64 TCRs were selected to annotate the repertoires, in addition to the CD8\textsuperscript{+} dataset. The enrichment analysis was performed with tcrdist3 Python toolkit (Docker image v0.1.9) \citep{metaclonotypes, tcrdist}, following the same meta-clonotype discovery pipeline employed for \covid{} CD8\textsuperscript{+} TCR discovery as in \cite{metaclonotypes}.
 
+In brief, firstly this pipeline groups all the \textit{in vitro} determined \covid-specific TCRs by the recognized epitope, which result in sets of similar TCR sequences. Then, for each TCR, its sequence distance with the rest of TCRs in the group is calculated, as well as with a control set of TCRs with matched V and J gene frequencies. An optimal distance radius was selected based on the propotion of \covid-specific TCRs and control TCRs included within it, always trying to minimize the latter below a given threshold. If this optimal radius is found for a given \covid-specific TCR, it is considered enriched, along with the rest of \covid-specific TCRs within the radius.
+
 
 
 \section*{Measurement of T cell response to \covid}
@@ -65,6 +67,8 @@ Undirected graphs were built considering each unique V gene + CDR3 aminoacid seq
 
 
 All plots and analyses were carried in R 3.6.1 \citep{r}. For data analysis, the packages dplyr v1.0.2 \citep{dplyr}, tidyr v1.1.2 \citep{tidyr}, rstatix v0.7.0 \citep{rstatix}, factoextra v1.0.5 \citep{factoextra} and parallel v3.6.1 \citep{r} were used. Networks were plotted with the ggraph v2.0.2 package \citep{ggraph}. \covid{} genome schematic representation was made with gggenes v0.4.1 package \citep{gggenes}. 3D visualization of the SARS-CoV-2 spike protein (PDB ID: 6XR8) was generated with Protein Imager \citep{proteinimager}. All other plots were generated with ggplot2 v3.3.2 \citep{ggplot2} and ggpubr v0.4.0 \citep{ggpubr}.
+
+Processed data, code for generating the plots and the scripts to run tcrdist3 are available on \url{https://github.com/marisolbc/masters_thesis_analyses}.
 
 
 %%% TO-DO: github repo here? All the analyses performed are available in an interactive RMarkdown notebook in \url{https://github.com/marisolbc/masters-thesis/}.
